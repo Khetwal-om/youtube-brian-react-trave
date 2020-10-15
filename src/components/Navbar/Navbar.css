@@ -74,7 +74,11 @@
   .menu-icon {
     display: none;
   }
+  .services__options{
+    display: none;
+  }
   
+
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;

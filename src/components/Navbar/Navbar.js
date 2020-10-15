@@ -40,8 +40,31 @@ function Navbar() {
                       </NavLink>
                   </li> 
                   <li className="nav-item">
-                      <NavLink to="/services" className="nav-links" onClick={closeMobileMenu}>
+                      <NavLink to="/services" className="nav-links serviceshere" onClick={closeMobileMenu}>
                             Services
+                            <ul className="services__options">
+                              <li>
+                                <NavLink to="/services" className="services__option" onClick={closeMobileMenu}>
+                                 Services
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink to="/services" className="services__option" onClick={closeMobileMenu}>
+                                 Services
+                                </NavLink>
+                              </li>
+                                <li>
+                                  <NavLink to="/services" className="services__option" onClick={closeMobileMenu}>
+                                        Services
+                                  </NavLink>
+                                </li>
+                                 <li>
+                                    <NavLink to="/services" className="services__option" onClick={closeMobileMenu}>
+                                     Services
+                                    </NavLink>
+                                 </li>
+
+                            </ul>
                       </NavLink>
                   </li> 
                   <li className="nav-item">
